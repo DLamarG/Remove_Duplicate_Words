@@ -8,3 +8,12 @@ def remove_duplicate_words(s):
             word_container[wrd] == 1
     single_word_list = list(word_container.keys())
     return ' '.join(single_word_list)
+
+
+
+
+
+
+print(remove_duplicate_words("my cat is my cat fat"))
+print(remove_duplicate_words("alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta"))
+print(remove_duplicate_words("alpha beta beta gamma gamma gamma"))
